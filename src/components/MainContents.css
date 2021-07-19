@@ -1,0 +1,9 @@
+.main {
+  width: 100%;
+  background: #fff;
+  border-radius: 1em;
+}
+
+.aside {
+  padding: 5em 2em;
+}
