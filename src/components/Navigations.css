@@ -1,11 +1,13 @@
 .brand {
   display: flex;
   align-items: center;
+  margin-bottom: 4em;
+  padding-right: 5em;
 }
 
 .logo-wrapper {
-  width: 4.5em;
-  height: 4.5em;
+  width: 4em;
+  height: 4em;
   background: var(--color-primary);
   display: flex;
   justify-content: center;
@@ -18,4 +20,35 @@
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--color-primary);
+}
+
+.title {
+  font-size: 1.25rem;
+  color: var(--color-blue-dark);
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-blue-light);
+  margin: 1em 0;
+  padding: 0.25em 0;
+  width: 100%;
+  cursor: pointer;
+  transition: color 0.25s ease-in;
+}
+
+.listItem-active {
+  border-right: 3px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.listItem:hover {
+  color: var(--color-blue-dark);
+}
+
+.listItem-icon {
+  margin-right: 1em;
 }

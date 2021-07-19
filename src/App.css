@@ -2,6 +2,11 @@
 
 :root {
   --color-primary: #347ae2;
+  --color-blue-light: #b5bfd3;
+  --color-blue-dark: #3a4a7a;
+  --color-blue-darker: #2d4070;
+  --color-blue-lighter: #e7eefa;
+  --color-lighter-1: #f6faff;
 }
 
 *,
@@ -20,4 +25,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #ebf1f6;
   padding: 7em 5em;
+}
+
+ul {
+  list-style: none;
 }

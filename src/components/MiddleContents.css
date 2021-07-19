@@ -1,0 +1,33 @@
+.form {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.sr-only {
+  visibility: hidden;
+  position: absolute;
+}
+
+.form-input {
+  width: 100%;
+  display: block;
+  padding: 1.5em 2em 1.5em 5em;
+  border: none;
+  outline: none;
+  background: var(--color-lighter-1);
+  border-radius: 2em;
+}
+
+.form-input::placeholder {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-blue-light);
+}
+
+.input-icon {
+  position: absolute;
+  left: 2.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-blue-darker);
+}

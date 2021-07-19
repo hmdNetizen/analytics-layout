@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainContents.css";
 import Navigations from "./Navigations";
+import MiddleContents from "./MiddleContents";
 
 const MainContents = () => {
   return (
@@ -8,8 +9,10 @@ const MainContents = () => {
       <aside className="aside">
         <Navigations />
       </aside>
-      <section className="mid-content"></section>
-      <section className="side-content"></section>
+      <section className="mid-contents">
+        <MiddleContents />
+      </section>
+      <section className="side-contents"></section>
     </main>
   );
 };
