@@ -31,3 +31,36 @@
   transform: translateY(-50%);
   color: var(--color-blue-darker);
 }
+
+.overview .list {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.overview .listItem {
+  padding: 1em;
+  border: 1px solid var(--color-blue-lighter);
+  display: block;
+  border-radius: 3px;
+}
+
+.overview .listItem:not(:last-child) {
+  margin-right: 1em;
+}
+
+.overview .listItem-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.overview h2 {
+  margin-bottom: 0.5em;
+}
+
+.listItem-description {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
