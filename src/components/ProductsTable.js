@@ -5,7 +5,7 @@ import smartphone from "../assets/smartphone.png";
 
 const ProductsTable = () => {
   return (
-    <table className="table" cellspacing="0" cellpadding="0">
+    <table className="table" cellSpacing="0" cellPadding="0">
       <thead>
         <th>Photos</th>
         <th>Name</th>
