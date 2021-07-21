@@ -30,7 +30,7 @@ const Navigations = () => {
                 size: 15,
                 className: "listItem-icon",
               })}
-              <span classname="listItem-text">{tab.title}</span>
+              <span className="listItem-text">{tab.title}</span>
             </li>
           ))}
         </ul>
@@ -50,7 +50,7 @@ const Navigations = () => {
                 size: 15,
                 className: "listItem-icon",
               })}
-              <span classname="listItem-text">{tab.title}</span>
+              <span className="listItem-text">{tab.title}</span>
             </li>
           ))}
         </ul>

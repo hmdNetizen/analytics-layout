@@ -33,7 +33,7 @@ const MiddleContents = () => {
                   color: data.iconColor,
                 })}
                 <span
-                  classname="listItem-info-text"
+                  className="listItem-info-text"
                   style={{ color: data.textColor }}
                 >
                   {data.margin}
