@@ -1,0 +1,50 @@
+.products {
+  width: 100%;
+  border: 1px solid var(--color-blue-lighter);
+  padding: 1.5em;
+  border-radius: 3px;
+}
+
+.products h2 {
+  margin-bottom: 1em;
+}
+
+.table {
+  width: 100%;
+}
+
+.table thead {
+  background: #f6faff;
+}
+
+.table thead th {
+  padding: 0.5em 1em;
+  font-size: 1.05rem;
+  color: var(--color-blue-light);
+  text-align: left;
+}
+
+.table tbody td {
+  padding: 0.5em 1em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-blue-darker);
+}
+
+.table tbody td:first-of-type {
+  padding-top: 2em;
+}
+
+.table tbody td span {
+  color: var(--color-blue-light);
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 0.5em;
+  font-weight: 400;
+}
+
+.table tbody td img {
+  width: 3em;
+  height: 3em;
+  border-radius: 0.5em;
+}

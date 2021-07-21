@@ -5,6 +5,7 @@ import { IoPeople, IoCart } from "react-icons/io5";
 import { AiFillPieChart } from "react-icons/ai";
 import "./MiddleContents.css";
 import Chart from "./Chart";
+import ProductsTable from "./ProductsTable";
 
 const MiddleContents = () => {
   return (
@@ -47,6 +48,10 @@ const MiddleContents = () => {
         <Fragment>
           <Chart />
         </Fragment>
+        <div className="products">
+          <h2 className="title">Popular Products</h2>
+          <ProductsTable />
+        </div>
       </div>
     </Fragment>
   );

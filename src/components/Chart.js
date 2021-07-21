@@ -11,6 +11,9 @@ const Chart = () => {
         <h3>Expense</h3>
         <select>
           <option value="2020">2020</option>
+          <option value="2020">2019</option>
+          <option value="2020">2018</option>
+          <option value="2020">2017</option>
         </select>
       </div>
       <div className="figures">
