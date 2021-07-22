@@ -6,6 +6,7 @@ import { RiLockFill } from "react-icons/ri";
 import { IoPeople } from "react-icons/io5";
 import smartphone from "../../../assets/smartphone.png";
 import headphone from "../../../assets/headphone.png";
+import camera from "../../../assets/camera.png";
 
 import "./RightContents.css";
 
@@ -74,7 +75,7 @@ const RightContents = () => {
         </div>
         <div className="product-list">
           {products.map((product) => (
-            <div className="product-wrapper">
+            <div className="product-wrapper" key={product.id}>
               <img src={product.photo} alt={product.name} />
               <div className="product-name-wrapper">
                 <h4>{product.name}</h4>
@@ -91,8 +92,8 @@ const RightContents = () => {
 
 const products = [
   { id: 0, photo: headphone, name: "Redmi 4X", price: "+$80.00" },
-  { id: 0, photo: smartphone, name: "Acer E1-421", price: "+$80.00" },
-  { id: 0, photo: headphone, name: "Nikon D3500", price: "+$80.00" },
+  { id: 1, photo: smartphone, name: "Acer E1-421", price: "+$80.00" },
+  { id: 2, photo: camera, name: "Nikon D3500", price: "+$80.00" },
 ];
 
 export default RightContents;

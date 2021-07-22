@@ -149,7 +149,7 @@
 .orders-descriptions {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 
 .orders-descriptions > h4 {
@@ -170,6 +170,25 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 3em;
+}
+
+.product-wrapper:last-of-type {
+  padding-bottom: 2.5em;
+}
+
+.product-wrapper h5 {
+  font-size: 1.2rem;
+  color: #66af97;
+  align-self: flex-start;
+}
+
+.product-wrapper h4 {
+  font-size: 1.2rem;
+  color: var(--color-blue-darker);
+}
+
+.product-wrapper p {
+  color: var(--color-blue-light);
 }
 
 .product-wrapper img {

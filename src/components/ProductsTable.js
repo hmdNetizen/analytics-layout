@@ -7,13 +7,15 @@ const ProductsTable = () => {
   return (
     <table className="table" cellSpacing="0" cellPadding="0">
       <thead>
-        <th>Photos</th>
-        <th>Name</th>
-        <th>Date</th>
-        <th>Category</th>
-        <th>Brand</th>
-        <th>Price</th>
-        <th>Status</th>
+        <tr>
+          <th>Photos</th>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Brand</th>
+          <th>Price</th>
+          <th>Status</th>
+        </tr>
       </thead>
       <tbody>
         {tableData.map((data) => (

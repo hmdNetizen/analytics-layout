@@ -9,6 +9,18 @@
 .aside {
   border-right: 1px solid var(--color-blue-lighter);
   width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copyright {
+  max-width: 15em;
+}
+
+.copyright > p {
+  color: var(--color-blue-light);
+  margin-top: 0.5em;
 }
 
 .mid-contents {

@@ -9,6 +9,12 @@ const MainContents = () => {
     <main className="main">
       <aside className="aside">
         <Navigations />
+        <div className="copyright">
+          <h4 className="title">&copy; Tumbas 2020</h4>
+          <p>
+            Platform for solution of all types business to be more advanced.
+          </p>
+        </div>
       </aside>
       <section className="mid-contents">
         <MiddleContents />
