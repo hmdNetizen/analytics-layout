@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductsTable.css";
-import headphone from "../assets/headphone.png";
-import smartphone from "../assets/smartphone.png";
+import headphone from "../../../assets/headphone.png";
+import smartphone from "../../../assets/smartphone.png";
 
 const ProductsTable = () => {
   return (

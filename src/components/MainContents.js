@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainContents.css";
-import Navigations from "./Navigations";
-import MiddleContents from "./MiddleContents";
+import Navigations from "./layouts/aside/Navigations";
+import MiddleContents from "./layouts/middle-section/MiddleContents";
 import RightContents from "./layouts/right-section/RightContents";
 
 const MainContents = () => {
